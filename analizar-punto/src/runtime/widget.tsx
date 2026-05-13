@@ -482,7 +482,7 @@ export default class Widget extends React.PureComponent<
           }
 
           /* ===================================================== */
-          /* ===== INFORMACIÓN ADICIONAL - SUBCENTROS ============ */
+          /* =====  SUBCENTROS ============ */
           /* ===================================================== */
 
           if (subcentrosLayer) {
