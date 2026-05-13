@@ -1,0 +1,15 @@
+{
+  "name": "analizar-punto",
+  "label": "Analizar punto",
+  "type": "widget",
+  "version": "1.15.0",
+  "exbVersion": "1.15.0",
+  "author": "Tu nombre",
+  "description": "Consulta información de capas al dar clic en el mapa",
+  "properties": {
+    "hasConfig": true,
+    "supportMultiInstance": true,
+    "frameworkVersion": "1.15.0"
+  },
+  "dependency": ["jimu-arcgis"]
+}

@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: ccconspunto
+    env: static
+    publishPath: ./
+    headers:
+      - path: /*
+        name: Access-Control-Allow-Origin
+        value: "*"
+      - path: /*
+        name: Access-Control-Allow-Methods
+        value: "GET, OPTIONS"
+      - path: /*
+        name: Access-Control-Allow-Headers
+        value: "X-Requested-With, Content-Type, Authorization"
+      - path: /*.js
+        name: Content-Type
+        value: application/javascript
+      - path: /*.svg
+        name: Content-Type
+        value: image/svg+xml
